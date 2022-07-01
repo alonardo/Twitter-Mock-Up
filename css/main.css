@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    height: 100vh;
+    width: 100vw;
+  }
+.profile{
+    position: absolute;
+    text-align: center;
+    bottom:0;
+    left: 10;
+}
+
+#left-side{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-decoration: none;
+    text-align: start;
+    margin-right: 50px;
+}
+
+.col a{
+    text-decoration: none;
+    color: black;
+}
+
+#bird{
+    color: #0D6EFD;
+}
+
+.badge:hover{
+    background-color: #b8f000;
+}
+
+.buttons{
+    text-align: start;
+}
+
+#middle{
+    margin-right: 50px;
+}
+
+#right{
+    margin-right: 50px;
+}
+
+.tweet img{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#pro{
+    margin-right: 20px;
+}
+
+.row{
+    margin-top: 30px;
+}
+
+h6{
+    text-align: center;
+    color: #0D6EFD;
+}
+
+#arrow{
+    size: 1px;
+}
+
+#tweet-logos{
+    text-align: center;
+}
+
+#tweet-logos:hover{
+    color: #0D6EFD;
+}
+ .tweet-title{
+    background-color: rgb(246, 244, 244)
+ }
+
+.tweet img{
+    width:75px;
+}
+
+.suggestions{
+    margin-top: 15px;
+    flex-direction: row; 
+    background-color: rgb(242, 242, 242);  
+}
+
+.suggestions img{
+    width:75px;
+}
+
+#but{
+    align-items: flex-end;
+}
+
+h5{
+    margin-top: 5px;
+    margin-left: 5px;
+}
